@@ -22,3 +22,9 @@
     - Загрузка
     - Ошибка загрузки
     - Отсутствие результатов поиска
+
+ ## Запуск проекта
+- git clone https://github.com/Me1k1iLexa/test.git
+- cd test
+- npm install
+- npm run dev
