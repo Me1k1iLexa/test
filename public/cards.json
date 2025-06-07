@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Идущий к реке",
+    "description": "Прекрасный осенний закат на берегу теплой летней реки.",
+    "image": "/images/river.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем. Наверное ага понятненько мда выфаываыавфыафывафывафывафываыфацу4цйаотплоывтпарыватлпотмолытфвалиылватыв",
+    "image": "/images/day1.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day2.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day3.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day4.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day5.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day6.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day7.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day8.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day9.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day10.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Не пью, день первый",
+    "description": "Всё под контролем.",
+    "image": "/images/day11.jpg"
+  }
+]

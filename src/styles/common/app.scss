@@ -1,0 +1,14 @@
+@use '../base/variables' as *;
+@use '../base/mixins' as *;
+
+.container{
+  @include container;
+}
+.loadingText,
+.errorText,
+.noResultText {
+  text-align: center;
+  margin-top: $spacing-xl;
+  font-size: $font-size-lg;
+  color: $color-danger;
+}

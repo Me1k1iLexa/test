@@ -1,0 +1,65 @@
+@use '../base/variables' as *;
+@use '../base/mixins' as *;
+
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: $spacing-md;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cardItem {
+  flex: 0 1 calc(50% - $spacing-md);
+  display: flex;
+  align-items: center;
+  background-color: $color-card-bg;
+  border: 1px solid $color-border-light;
+  border-radius: $radius-md;
+  box-shadow: $shadow-sm;
+  padding: $spacing-md;
+  width: 100%;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: $color-hover-bg;
+  }
+}
+
+.cardImage {
+  width: $image-size-lg;
+  height: $image-size-lg;
+  object-fit: cover;
+  border-radius: $radius-sm;
+  flex-shrink: 0;
+  margin-right: $spacing-md;
+}
+
+.cardContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.cardTitle {
+  margin: 0 0 $spacing-xs 0;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+  color: $color-text-main;
+  @include textEllipsis;
+}
+
+.cardDescription {
+  margin: 0;
+  font-size: $font-size-base;
+  color: $color-text-light;
+  @include textEllipsis;
+}
+
+.buttonFav{
+  @include buttonBase($color-primary,$color-hover-bg,$color-primary-hover);
+  z-index: 10;
+}

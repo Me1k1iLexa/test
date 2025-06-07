@@ -1,0 +1,72 @@
+@use './variables' as *;
+
+@mixin container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $spacing-lg;
+  padding-right: $spacing-lg;
+}
+
+@mixin textEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin buttonBase($bg-color, $text-color, $hover-color) {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: $spacing-sm $spacing-md;
+  border-radius: $radius-md;
+  background-color: $bg-color;
+  color: $text-color;
+  font-size: $font-size-base;
+  font-weight: 500;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+
+  &:disabled {
+    background-color: $color-disabled;
+    cursor: not-allowed;
+  }
+}
+
+@mixin inputBase {
+  width: 100%;
+  padding: $spacing-sm $spacing-md;
+  font-size: $font-size-base;
+  color: $color-text-main;
+  background-color: $color-input-bg;
+  border: 1px solid $color-input-border;
+  border-radius: $radius-md;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+
+  &::placeholder {
+    color: $color-input-placeholder;
+    opacity: 1;
+  }
+
+  &:focus {
+    border-color: $color-input-focus-border;
+    background-color: $color-input-bg;
+  }
+}
+@mixin modalBase {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
